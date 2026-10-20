@@ -30,3 +30,8 @@ npm run dev
 ```
 
 The dev server starts on port 8080.
+
+## License
+
+[MIT](LICENSE). That covers this game's code and original art. The pixel fonts are loaded from Google Fonts under their own licenses, and npm packages keep theirs.
+
