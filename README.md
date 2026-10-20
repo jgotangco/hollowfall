@@ -22,6 +22,18 @@ Ladders, a red balloon, a dark lake, and a score that only stays if you bank it 
 
 Scorpions, bats, eels, and a condor will knock you back. Your best score stays in this browser.
 
+## Where to look
+
+The cavern is a few files. The rest of the tree is the app shell.
+
+- [`src/game/engine.ts`](src/game/engine.ts) — movement, collision, camera, scoring, and the draw loop
+- [`src/game/level.ts`](src/game/level.ts) — the cave: ridge, ladders, lake, balloon ledge, and the three relics
+- [`src/game/audio.ts`](src/game/audio.ts) — the chiptune
+- [`src/game/sprites.ts`](src/game/sprites.ts) — Kit, Ember, and the creatures
+- [`src/components/hollowfall.tsx`](src/components/hollowfall.tsx) — the screen, buttons, and touch controls
+
+`src/lib`, `scripts`, and `server` are auth, database bootstrap, and the install page. Skip them if you only want the game.
+
 ## Run it
 
 ```bash
@@ -34,4 +46,3 @@ The dev server starts on port 8080.
 ## License
 
 [MIT](LICENSE). That covers this game's code and original art. The pixel fonts are loaded from Google Fonts under their own licenses, and npm packages keep theirs.
-
